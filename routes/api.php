@@ -17,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('test', function(){
     return "Go";
 });
+
+Route::post('post', function (){
+    return "Post";
+});
